@@ -1,0 +1,26 @@
+.FilterContainer{
+    width: 15%;
+    /* background-color: aqua; */
+    padding: 10px;
+    border-radius: 5px; 
+    float: left;
+}
+.FilterContainer h4{
+               padding: 5px;
+               font-size: 17px;
+               border-bottom: 2px solid gray;            
+}
+.FilterContainer div{
+     /* background-color: rgb(209, 231, 231); */
+     padding: 5px;
+     font-size: 17px;
+}
+.FilterContainer div:hover{
+       background-color: rgb(196, 193, 193);
+       cursor: pointer;  
+       color:red;      
+}
+
+.FilterContainer{
+    position: static;
+}

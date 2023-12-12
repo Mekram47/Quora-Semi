@@ -1,0 +1,13 @@
+/* .filterforspaces{
+       
+       width: 12%;
+       margin-top: 15px;
+       border-radius: 15px;
+       padding: 10px;
+       background-color: rgb(223, 218, 218);        
+} */
+.sticky{
+       position: sticky;
+       position: -webkit-sticky;
+       top: 10%;  
+} 

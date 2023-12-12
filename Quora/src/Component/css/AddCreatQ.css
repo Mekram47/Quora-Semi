@@ -1,0 +1,176 @@
+.back-ref{
+       position: fixed;
+       top: 0px;
+       bottom: 0px;
+       right: 0px;
+       left: 0px;
+       z-index: 1000;
+       background-color: rgba(71, 72, 73, 0.9);
+}
+     /* ---------------------------------------------Main Container-------------------------------- */
+.Main-container{
+       position: fixed;
+       left: 32%;
+       top: 11%;
+       z-index: 2000;
+       cursor: pointer;
+}
+     /* ---------------------------------------------Sub Container-------------------------------- */
+
+.Sub-container{
+       position: fixed;
+       padding: 15px;
+      display: flex;
+      flex-direction: column; 
+      width: 60vw;
+      height: 80vh;
+      background-color: rgb(235, 243, 243);
+      margin-left: -150px;
+      
+      
+
+}
+
+/* . div{
+       display: flex;
+       flex-direction: row;
+       justify-content:end;
+} */
+     /* --------------------------------------------- Buttons-------------------------------- */
+
+#Add-Ques button:hover{
+       background-color: rgb(200, 205, 205);
+     }
+#Creat-post button:hover{
+  background-color: rgb(200, 205, 205);
+}
+.bottom-container-border{
+display: flex;
+flex-direction: row;
+height: 5px;
+
+}
+     /* ------------------------------------------Blue UnderLine below Add-Q and Create-Post-------------------------------- */
+
+.Underline{
+width: 50%;
+background-color: rgb(76, 61, 245);
+height: 3px;
+}
+.bbottom_border{
+       margin-left: 50%;
+       width: 50%;
+       height: 3px;
+       background-color: rgb(76, 61, 245);
+}
+.Buttons{
+       display: flex;
+       flex-direction: row;        
+}
+.Buttons div{
+       width: 50%;        
+}
+.Buttons button{
+  width: 95%;
+  border: none;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 0px;
+  padding: 10px;
+  font-size: 20px;
+  border-bottom: 2px solid rgb(243, 243, 250);
+}
+     /* ---------------------------------------------Informatiion-tips-------------------------------- */
+
+.info{
+margin: 20px;
+padding: 5px;
+border-radius: 5px;
+background-color: rgb(216, 235, 254);
+color: rgb(42, 50, 213);
+}
+.info ul{
+       list-style-position: inside;        
+}
+.Public-icon{
+               display: flex;
+               flex-direction: row;
+               padding: 5px;            
+}
+     /* ---------------------------------------------Create-post-line-------------------------------- */
+
+.Create-line{
+       color:grey;
+       margin-top: 30px;
+       font-size: x-large;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+
+}
+.Public-icon button{
+       padding: 4px;
+       margin-top: 3px;
+       border-radius: 10px;
+       border: none;
+       font-size: 15px;        
+}
+
+.Below-btn-sec{
+               display: flex;
+               flex-direction: row;
+               justify-content: flex-end;
+}
+.Below-btn-sec button{
+            margin: 5px;
+            padding: 5px;
+            font-size: 20px;
+            border: none;
+            border-radius: 10px;   
+}
+.AddButton{
+           background-color: rgb(54, 65, 224);  
+           color: white;
+       
+            
+}
+.Cancelbtn:hover{
+    background-color: rgb(200, 205, 205);
+}
+.AddButton:hover{
+       background-color: rgb(10, 15, 95);
+}
+     /* ---------------------------------------------Text-Area-------------------------------- */
+
+.textarea textarea{
+        width: 100%;
+        height: 50px;
+        padding: 15px;
+        font-size: 20px;
+        border: none;
+        border: 1px solid black;
+}
+.textarea1 textarea{
+       width: 100%;
+       height: 50px;
+       padding: 15px;
+       font-size: 20px;
+       border: none;
+       margin-top: 50px;
+       border: 1px solid black;
+
+}
+   /* @media only screen and (max-width: 800px) {
+       .container_addCreatQ{
+          width: 100%;    
+       }
+       .AddCreatQs{
+        left: 0px;      
+       }
+
+   }
+   @media only screen and (max-width: 1000px) {
+       .container_addCreatQ{
+          width: 100%;    
+       }
+       /* .AddCreatQs{      
+       } */

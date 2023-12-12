@@ -1,0 +1,129 @@
+
+.Main-Container{
+          justify-content: center;
+          background-image: url("https://qph.cf2.quoracdn.net/main-qimg-b5faebde65208b4e09af0a85b3893ddd-lq");
+          /* background-color: #F1F2F2; */
+          background-size: cover;
+          height: 100vh;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+          cursor: pointer;        
+}
+h1{
+         text-align: center;
+         color: #AF3332;
+        font-size: 50px;
+}
+
+.Container{
+       border-radius: 10px;
+       padding: 20px;
+         width: 80vw;
+         height: 70vh;
+
+         background-color:white;
+         margin-top: 110px;
+         margin-bottom: 200px;
+         box-shadow: 10px 10px 10px rgb(59, 16, 22);      
+}
+
+.login-line{
+    text-align: center;
+    color:gray;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.continue-line{
+    text-align: center;
+    color:gray;
+    margin-left: 30px;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+.Signup-line{
+ color:blue;
+ margin-left: 5px;
+ margin-top: 3px;
+}
+.flex_row{
+        display: flex;
+        flex-direction: row;       
+}
+.Login-Method{
+    padding: 20px;
+}
+.signup{
+     padding: 10px;
+          flex: 60%;     
+}
+.signup button{
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;                 
+     margin-top: 10px;
+     margin-bottom: 10px;
+   width: 100%;
+   font-size: 20px;
+   padding: 8px;
+   border-radius: 10px;
+   border: none;            
+}
+label{
+     display: block;   
+     /* margin-top: 5px;        */
+}
+.Email{
+    margin-top: 10px;
+}
+.login{
+    padding: 10px;
+    width: 100%;
+    flex: 40%; 
+    border-bottom: 2px;
+              
+}
+.login input{
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;  
+
+}
+.login h3{
+               padding-bottom: 10px;
+        border-bottom: 2px solid gray;       
+}
+.login-btn button{
+      padding: 5px;
+      font-size: 20px;
+      border: none;
+      border-radius: 10px;
+      width: 100px;
+}
+.login-btn button:hover{
+    background-color: #AF3332;
+}
+.space_bitween{
+      justify-content: space-between;          
+}
+.devider{
+      width: 1px;
+      background-color: grey;
+      height: 200px;         
+}
+
+@media only screen and (max-width: 800px) {
+    .login_signup_container{
+        width: 100%;
+    }
+    .login_signup{
+        padding: 2px;
+    }
+
+}
+@media only screen and (max-width: 600px) {
+    .login_signup_container{
+        width: 100%;
+    }
+    .login_signup{
+        padding: 2px;
+    }
+    
+}

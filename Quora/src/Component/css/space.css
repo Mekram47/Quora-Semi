@@ -1,0 +1,69 @@
+.space_container{
+            margin-top: 22px;
+            top: 0px; 
+           
+     
+}
+.space{
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      font-size: 15px;
+      line-height: 40px;
+      padding: 5px;
+      cursor: pointer;         
+}
+.space:hover{
+      background-color: rgb(196, 193, 193);
+}
+
+.createS{
+      background-color: rgb(204, 201, 201);
+      border-radius: 5px;
+}
+.space p{
+   margin-left: 10px;
+}
+
+@media only screen and (max-width: 740px) {
+  .space_container{
+          display: block;
+          width: 100%;
+       }
+    }
+    .SidebarOption {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      cursor: pointer;
+    }
+    
+    .SidebarOption:hover {
+      background: rgb(211, 211, 211);
+      border-radius: 5px;
+      color: red;
+    }
+    .SidebarOption > img {
+      height: 30px;
+      width: 50px;
+      border-radius: 5px;
+      margin-left: 20px;
+    }
+    
+    .SidebarOption > .MuiSvgIcon-root {
+      font-size: medium;
+      margin-left: 20px;
+    }
+    .SidebarOption > p {
+      margin-left: 10px;
+      color: gray;
+      font-weight: 400;
+      font-size: 13px;
+    }
+    
+    .SidebarOption > .text {
+      margin-left: 23px;
+      color: gray;
+      font-weight: 400;
+      font-size: 13px;
+    }

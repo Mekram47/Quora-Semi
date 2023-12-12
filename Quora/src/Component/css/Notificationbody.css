@@ -1,0 +1,85 @@
+.Notification_body_container{
+       z-index: 1000;
+            display: flex;
+            flex-direction: column;
+            width: 55%;
+            padding: 10px;
+            /* margin-top: 20px; */
+             background-color: rgb(239, 238, 252);  
+             margin: 5px;
+}
+.svg-icon{
+       z-index: 999;
+}
+.Heading{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       padding: 5px;
+       border-bottom: 2px solid gray;        
+}
+.singleNotificationstyl{
+       
+       cursor: pointer;
+       font-size: 18px;
+       padding: 14px;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       border-bottom:1px solid gray;
+
+}
+.days{
+       margin-left: 15px;
+       font-size: small;
+}
+
+.days:hover{
+       color:blue;
+       text-decoration: underline;
+}
+.author{
+       font-size: 15px;
+
+}
+.author:hover{
+       color:blue;
+       text-decoration: underline;
+}
+.ques{
+       margin-top: 5px;
+       margin-left: 2px;
+
+}
+.view{
+       margin-top: 10px;
+
+}
+
+.singleNotificationstyl h3{
+       overflow: hidden;
+display: -webkit-box; 
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;
+max-height: 3.2rem;
+       
+}
+.profileLogo{
+       padding: 10px;
+flex: 5%;
+}
+.notifiparagraph{
+flex: 84%;
+}
+.tripledot{
+flex: 5%;
+}
+.tripledot:hover{
+       color:blue;
+}
+
+@media only screen and (max-width: 740px) {
+       .Notification_body_container{
+              width: 100%;
+       }
+}

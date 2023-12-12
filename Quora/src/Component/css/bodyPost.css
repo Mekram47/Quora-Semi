@@ -1,0 +1,182 @@
+
+.postContainer{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        cursor: pointer;
+        margin: 15px 5px;
+        padding: 10px;
+        background-color: rgb(253, 253, 253);
+        display: flex;
+        flex-direction: column;
+        z-index: 999;
+}
+.clearicon{
+        float: right;
+        cursor: pointer;
+}
+.hName{
+               display: flex;
+               flex-direction: row;
+               cursor: pointer;
+
+}
+.hName span{
+        cursor: pointer;
+       margin-left: 5px;
+       color: rgb(14, 80, 246); 
+}
+.follow{
+        color: rgb(14, 80, 246);
+        margin-left: 10px;
+        margin-top: 5px;
+}
+.pHeader1{
+               display: flex;
+               flex-direction: row;
+               justify-content: space-between;
+
+}
+.pHeader2{
+        display: flex;
+        flex-direction: row;
+        /* margin: px; */
+        /* justify-content: space-between; */
+
+}
+.ppn{
+        margin-left: 10px;
+}
+.postFcontainer{
+        display: flex;
+       flex-direction: row;          
+}
+
+.pfooter1{
+               display: flex;
+              flex-direction: row;
+              justify-content: space-between; 
+
+}
+.pfooter2{
+        display: flex;
+       flex-direction: row; 
+
+}
+.pfooter2 div{
+     margin: 0px 3px;
+}
+.pReaction{
+        cursor: pointer;
+               display: flex;
+              flex-direction: row;
+     
+}
+.downvote button{
+        padding: 4px;
+        border: none;
+        border-radius: 8px;
+}
+.downvote button:hover{
+        background-color: rgb(248, 115, 139);
+}
+.pComment{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;  
+      width: 100%;
+      margin-top: 5px;
+      padding: 3px;
+}
+
+.flex1{
+flex: 3%;
+}
+.flex2{
+  flex: 60%;      
+}
+.flex3{
+   flex: 20%;     
+}
+.pComment input{
+     font-size: 20px;
+     padding: 7px;
+     width: 100%;
+}
+.pComment button{
+        flex: content;
+    padding: 7px;
+    font-size: 20px;
+    width: 100%;
+}
+.voteupvote{
+               display: flex;
+               flex-direction: row;
+}
+.vote button,.pFc{
+               display: flex;
+               font-size: 20px;
+               flex-direction: row;
+               border: none;
+               padding: 5px;
+               border-radius: 8px;
+               color: gray;
+            
+}
+.pFc:hover{
+    background-color:rgb(193, 196, 198) ;
+}
+button,.horisign{
+        cursor: pointer;
+}
+
+.vote button:hover{
+        background-color: rgb(119, 134, 249);
+}
+.border-bottom{
+      height: 2px;
+      background-color: gray; 
+      margin-top: 10px;
+      margin-bottom: 10px; 
+}
+img{
+      width: inherit;  
+}
+.svg-icon{
+      z-index: 999;  
+}
+
+@media only screen and (max-width: 740px) {
+
+       .postContainer img{
+      width: 100%;
+       }            
+              
+        
+        }
+
+
+.author{
+        color:gray;
+        font-size: 15px;
+        margin-top: 5px;
+}
+.designation{
+        color:gray;
+        font-size: 15px;
+        margin-top: 5px;
+        margin-right: 5px;
+}
+.text{
+        margin-top: 10px;
+        font-weight: bold;
+
+}
+.post-img{
+        width: 800px;
+        height: 500px;
+        padding: 5px;
+        
+        margin-top: 15px;
+}
+.time-span{
+        margin-left: 30px;
+}

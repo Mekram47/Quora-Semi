@@ -1,0 +1,141 @@
+*{
+     padding: 0;
+     margin: 0;    
+     box-sizing: border-box;
+}
+.containerHeader{
+      position: sticky;
+      z-index: 1000;
+      top: 0px;
+      padding: 3px;
+      background-color: rgb(253, 253, 253);
+      box-shadow: 10px 1px 10px gray;    
+      cursor: pointer;    
+      margin-left: 20px;  
+      /* width: 100%; */
+}
+
+.active:hover {
+      color: red; 
+}
+.parentHeader{
+      display: flex;
+      flex-direction: row; 
+      font-size: 20px;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+}
+#Quora{
+      color: rgb(184, 21, 21);
+      font-size: 30px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: bold;
+      text-decoration: none;
+      border-bottom: none;
+      width: 80px;
+      height: 50px;
+      margin-left: 20px;
+}
+
+.Add-Ques button{
+ color: white;
+  background-color:red;
+  border-radius: 20px;
+  font-size: 18px;
+  text-align: center;
+  padding: 2px 15px 3px ;
+  margin-left: 5px;
+  text-transform:initial;
+  width: 180px;
+  
+}
+.Add-Ques button:hover{
+      color:white;
+      background-color:red;
+
+}
+
+.headerSelect{
+      width: 30px;
+      font-size: 20px;
+      border: none;
+      background-color: rgb(184, 21, 21);
+      color: rgb(15, 15, 15);         
+}
+@media only screen and (max-width: 740px) {
+      .containerHeader{
+           display: block; 
+      }
+      .parentHeader{
+        /* background-color: aqua; */
+        display: block;
+        /* width: 100%; */
+        text-align: center;
+      }
+      .containerHeader{
+           position: static; 
+           display: block;
+           /* width: 50%; */
+      }
+}
+.quoraLogo{
+      width: 80px;
+      height: 50px;
+      margin-top: 20px;
+}
+.qHeader-icons {
+      display: flex;
+    }
+.qHeader-icon > .MuiSvgIcon-root {
+      color: gray;
+      font-size: xx-large;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    
+.qHeader-icon:hover > .MuiSvgIcon-root {
+      color:red;
+    }
+    .qHeader-input {
+      display: flex;
+      align-items: center;
+      border: 1px solid lightgray;
+      padding: 5px;
+      border-radius: 5px;
+      margin-left: 5px;
+      width: 280px;
+    }
+    
+    .qHeader-input > input {
+      background-color: transparent;
+      outline: none;
+      border: none;
+      color: rgb(49, 49, 49);
+    }
+    
+    .qHeader-input > .MuiSvgIcon-root {
+      color: gray;
+    }
+    .qHeader-input:hover{
+      border: 1px solid blue;
+    }
+    .Home-icon{
+      color: gray;
+      font-size: xx-large;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    .Notification-icon{
+      color: gray;
+      font-size:xx-large;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+.Home-icon :hover > .MuiSvgIcon-root{
+      color: red;
+      text-decoration: none;
+    }
+
+   
+    

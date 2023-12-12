@@ -1,0 +1,14 @@
+.quorabodycontainer{
+        display: flex;
+        flex-direction: row;
+        /* float: left; */
+        background-color: rgb(223, 218, 218);
+        justify-content: center;       
+}
+
+@media only screen and (max-width: 740px) {
+        .quorabodycontainer{
+                display: flex;
+                flex-direction: column;
+             }
+          }
